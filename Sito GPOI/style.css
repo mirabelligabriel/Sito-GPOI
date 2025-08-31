@@ -1,0 +1,86 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+nav {
+  display: flex;
+  align-items: center;        
+  padding: 10px 20px;
+  background-color: #333;
+  gap: 20px;
+}
+
+nav button {
+  background-color: #555;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin: 0;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+  font-weight: bold;
+  
+}
+
+nav button:hover {
+  background-color: #777;
+}
+
+.sezione {
+  display: none;
+  padding: 20px;
+  background-color: white;
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.attiva {
+  display: block;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
+
+.centrato {
+  text-align: center;
+  font-weight: bold; 
+}
+
+.logo{
+  height: 36px;
+  width: 36px;
+  object-fit: cover;
+  margin: 0;
+  padding: 0;
+  border-radius: 4px;
+  display: block;
+}
+
+.logo-wrapper {
+  display: flex;
+  align-items: center;
+  height: 100%;               
+}
+
+.banner-tps {
+  background-image: url('https://www.hdmotori.it/app/uploads/2021/07/983935.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 600px;
+}
